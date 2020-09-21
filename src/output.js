@@ -41,11 +41,11 @@ const renderReport = ({
       <h2 class="city">${name}</h2>
       <h3 class="weather-state">${weather[0].description} <img src="http://openweathermap.org/img/wn/${weather[0].icon}@2x.png" alt=""/></h3>
       <ul class="stats">
-        <li>Temp: ${Math.floor(main.temp)} ${unitDisplay}</li>
-        <li>Feels like: ${Math.floor(main.feels_like)} ${unitDisplay}</li>
-        <li>Humidity: ${main.humidity}% RH</li>
-        <li>Pressure: ${main.pressure} mbar</li>
-        <li>Wind: ${wind.speed} m/s</li>
+        <li>Temperatura: ${Math.floor(main.temp)} ${unitDisplay}</li>
+        <li>Temperatura percepita: ${Math.floor(main.feels_like)} ${unitDisplay}</li>
+        <li>Umidità: ${main.humidity}% RH</li>
+        <li>Pressione: ${main.pressure} mbar</li>
+        <li>Vento: ${wind.speed} m/s</li>
       </ul>
     </div>
   `;

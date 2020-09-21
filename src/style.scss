@@ -18,7 +18,11 @@ label {
     0 0 5px white,
     0 0 10px black;
 }
-
+.love {
+  position: fixed;
+  bottom: 5px;
+  right: 15px;
+}
 .app {
   min-width: 100vw;
   min-height: 100vh;

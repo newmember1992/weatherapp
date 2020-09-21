@@ -1,7 +1,7 @@
 import { processData } from './output';
 
 const getWeatherData = async (city, units) => {
-  const key = '969c4ecd761e8903fe359368bcee2c3b';
+  const key = process.env.API_KEY;
   const baseURL = 'https://api.openweathermap.org/data/2.5/weather?q=';
   try {
     const res = await fetch(`${baseURL}${city}&units=${units}&appid=${key}`);

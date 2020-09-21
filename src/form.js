@@ -1,7 +1,7 @@
 const createForm = () => `
     <div class="form-wrap">
       <form >
-        <input type="text" id="city" placeholder="City"/>
+        <input type="text" id="city" placeholder="Città"/>
         <div class="form-control">
           <input type="radio" value="metric" name="units" id="celsius"/>
           <label for="celsius">Celsius</label>
@@ -10,7 +10,7 @@ const createForm = () => `
           <input type="radio" value="imperial" name="units" id="fahrenheit"/>
           <label for="fahrenheit">Fahrenheit</label>
         </div>
-        <button type="submit">Search</button>
+        <button type="submit">Cerca</button>
       </form>
     </div>
   `;
